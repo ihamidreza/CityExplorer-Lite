@@ -40,22 +40,20 @@ It displays a map of a city with Points of Interest (POIs) loaded from a MySQL d
 
 ---
 
-### Project Structure
+## Project Structure
 
-## index.php # Main map UI (frontend)
+- **index.php** Main map UI (frontend)
 
-## admin.php # Admin CRUD panel for POIs
+- **admin.php** Admin CRUD panel for POIs
 
-## get_pois.php # PHP API that returns POIs as JSON
+- **get_pois.php** PHP API that returns POIs as JSON
 
-## db_config.php # Database connection (PDO)
+- **db_config.php** Database connection (PDO)
 
-## assets/
+- **README.md**
 
-## css/styles.css # Custom styles (map container, etc.)
+- **assets/**
 
-## js/app.js # All frontend map logic (Leaflet, filters, list, tools)
+  **css/styles.css** Custom styles (map container, etc.)
 
-## sql/schema_and_seed.sql # Database schema + example data (optional)
-
-## README.md
+  **js/app.js** All frontend map logic (Leaflet, filters, list, tools)
